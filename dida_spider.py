@@ -1,7 +1,7 @@
-#-*- coding:utf-8 -*-
+
 import urllib.parse
 import urllib.request
-import requests
+
 url = 'http://211.151.134.222/V3/BookingDriver/getNearbyBookingRideList'
 headers = {
     'Host':'211.151.134.222',

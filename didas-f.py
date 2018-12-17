@@ -261,3 +261,8 @@ def response(flow):
             }
             print(CityRoutInfo)
             insert_cityroute(CityRoutInfo)
+
+    if 'http://211.151.134.222/V3/BookingDriver/getRideOrderDetail' in flow.request.url:
+        text = flow.response.content
+        text = json.loads(text)
+        print(text)
